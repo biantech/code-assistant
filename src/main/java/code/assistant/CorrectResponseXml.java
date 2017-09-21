@@ -10,7 +10,6 @@ import java.util.regex.Pattern;
 
 /**
  * Created by jqbian on 2017-05-22.
- *
  * @author jqbian
  */
 public class CorrectResponseXml {
@@ -19,8 +18,6 @@ public class CorrectResponseXml {
         String fileName="D:\\work\\Hotel-SearchCache\\JavaMigration\\TestRequest\\Response-Java-03.xml";
         processFile(fileName);
     }
-
-
     public static void processFile(String fileName){
         try{
             String saveFileName = fileName.substring(fileName.lastIndexOf("\\"),fileName.length());
